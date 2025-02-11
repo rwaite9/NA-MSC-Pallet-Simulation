@@ -256,4 +256,4 @@ All code for this project is written and run in a single jupyter notebook file: 
 ## Visualizations
 EOP Pallet Report uses the pallet simulation output to present theoretical pallet ingestion pacing for the operations team.
 
-Link: 
+Link: https://app.powerbi.com/groups/7f31de24-56ed-4b17-9f75-a649e2457b34/reports/d7f032b9-ea48-4876-83e9-aa6c36ec78c1?ctid=18a01ad8-9727-498a-a47d-17374c6fd9f7&pbi_source=linkShare
