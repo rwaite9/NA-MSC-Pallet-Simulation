@@ -59,7 +59,7 @@ Downstream facilities represent sites that will accept pallets from upstream fac
 
 
 *Depiction of directional pallet flow in pallet simulation*
-<img src = "MSC Network Future State.PNG">
+<img src = "pallet_simulation_flow.JPG">
 
 **Process:** <br>
 Below is the general flow of how the simulation works:
