@@ -16,9 +16,6 @@ This project was built entirely in the Python programming language. Below are th
 * pandas 1.5.3 - docs: https://pandas.pydata.org/pandas-docs/version/1.5.3/getting_started/index.html
 * numpy 1.24.3 - docs: https://numpy.org/doc/1.24/
 
-**Calculations:**
-* math 3.12.1 - docs: https://docs.python.org/3/library/math.html
-
 **Reproducibility:**
 * random 3.12.1 - docs: https://docs.python.org/3/library/random.html
 
