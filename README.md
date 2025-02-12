@@ -46,9 +46,7 @@ Upstream facilities represent sites that will be the source of both pallet injec
 * Mexico Hub
   * Salinas, MX facilities - *one node for all Salinas facilities*
 
-* External Manufacturers - *one node for all external manufacturers*
-
-* Repack Facilites - *one node for all repack facilities*
+* *EM's & Repack were initailly included, but have since been excluded per the operations team request.*
 
 *Downstream* <br>
 Downstream facilities represent sites that will accept pallets from upstream facilities and/or distrubte pallets throughout the network. These sites include RDCs, DSD branch locations & customer locations. 
