@@ -5,7 +5,7 @@ Comprehensive simulation of pallet flow through the US CS&amp;L network, includi
 This project was built entirely in the Python programming language. Below are the required dependendices the model needs in order to run properly:
 
 **Editor Used:** VS Code  
-**Python Version:** 3.11.4
+**Python Version:** 3.11.9
 
 ### Python Packages Used
 
@@ -74,8 +74,6 @@ The simulation runs out 3 years, and tracks daily information for each upstream 
 
 
 ## Simulation Technical Details
-**DISCLAIMER:** This model scales all pallet numbers to thousands (i.e 200 pallets = 200,000 pallets, 1.5 pallets = 1,500 pallets)
-
 The SimPy framework has many nuances not detailed in this section. Please reference the docs above for clarification.
 
 The pallet simulation uses six main features of the SimPy framework: Environmnets, Classes, Processes, Resources, Containers & Timeouts.
@@ -216,6 +214,8 @@ Step 5) run the simulation
 ## Data
 All input data for the production model was sourced from the project sponsor. Historical data was used to provide estimates for 2024 pallet throughput at each node in the simulation. This data can be found in the file below:
 
+**Update** - 2025 pallet throughput was forecasted using a Prophet time series forecasting model for each location. This script for this is also found within this repository.
+
 Pallet Simulation Data.xlsx
 * Directional yearly pallet throughput for each node in the simulation
 * Lead times between nodes in the network
@@ -225,7 +225,7 @@ Pallet Simulation Data.xlsx
 * Truck fill capacity
 
 ## Code Structure
-All code for this project is written and run in a single jupyter notebook file: *pallet_sim_final - Weekly Testing - FINAL.ipynb*
+All code for this project is written and run in a single jupyter notebook file: *pallet_simulation_2025.ipynb*
 
 **Sections** <br>
 *Imports*
